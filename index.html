@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ÉLORA — A thoughtful approach to skincare, beauty and everyday rituals.">
+  <title>ÉLORA | The Art of Skincare</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement">
+    A LITTLE MORE CARE. A LITTLE MORE YOU.
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">ÉLORA<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#home">HOME</a>
+      <a href="#story">OUR STORY</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#philosophy">PHILOSOPHY</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <a href="#collection" class="header-link">EXPLORE <span>↗</span></a>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <span class="eyebrow light">THE ART OF SKINCARE</span>
+        <h1>Your Skin.<br>Your Beauty.<br><em>Your Ritual.</em></h1>
+        <p>
+          Discover a more thoughtful way to care for your skin.
+          Simple rituals, timeless beauty and a little everyday luxury.
+        </p>
+        <a href="#collection" class="primary-button">
+          EXPLORE OUR COLLECTION <span>↗</span>
+        </a>
+      </div>
+
+      <div class="hero-bottom">
+        <span>BEAUTY IN EVERY DETAIL</span>
+        <span>01 — 03</span>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro section-padding" id="story">
+      <div class="intro-label reveal">
+        <span class="eyebrow">WELCOME TO ÉLORA</span>
+        <span class="small-line"></span>
+      </div>
+
+      <div class="intro-content reveal">
+        <h2>Skincare is more than a routine.<br><em>It's a moment for yourself.</em></h2>
+        <p>
+          At ÉLORA, we believe beauty begins with care.
+          Every day is an opportunity to slow down, reconnect
+          with yourself and enjoy the little moments that make a difference.
+        </p>
+        <a href="#philosophy" class="text-link">GET TO KNOW US <span>↗</span></a>
+      </div>
+    </section>
+
+    <!-- Collection -->
+    <section class="collection section-padding" id="collection">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow">DISCOVER ÉLORA</span>
+          <h2>Our <em>Collection</em></h2>
+        </div>
+        <p>
+          Thoughtfully presented skincare essentials
+          for your everyday beauty ritual.
+        </p>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Product 1 -->
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=900&q=85"
+              alt="Radiance Serum skincare"
+              loading="lazy"
+            >
+            <span class="product-number">01</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">THE GLOW EDIT</span>
+            <h3>Radiance Serum</h3>
+            <p>A lightweight skincare essential designed to complement your daily routine.</p>
+            <button class="discover-button" data-product="serum">
+              DISCOVER MORE <span>↗</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=900&q=85"
+              alt="Velvet Moisturizer skincare"
+              loading="lazy"
+            >
+            <span class="product-number">02</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">THE HYDRATION EDIT</span>
+            <h3>Velvet Moisturizer</h3>
+            <p>A comforting skincare step created for a soft and nourishing daily ritual.</p>
+            <button class="discover-button" data-product="moisturizer">
+              DISCOVER MORE <span>↗</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=900&q=85"
+              alt="Pure Skin Cleanser skincare"
+              loading="lazy"
+            >
+            <span class="product-number">03</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">THE DAILY ESSENTIAL</span>
+            <h3>Pure Skin Cleanser</h3>
+            <p>A gentle cleansing step to refresh your skin and complete your routine.</p>
+            <button class="discover-button" data-product="cleanser">
+              DISCOVER MORE <span>↗</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote-section" id="philosophy">
+      <div class="quote-image"></div>
+      <div class="quote-content reveal">
+        <span class="eyebrow light">OUR PHILOSOPHY</span>
+        <h2>Beauty is not about changing who you are.<br><em>It's about caring for who you are.</em></h2>
+        <p>
+          We celebrate simplicity, thoughtful choices
+          and the beauty of taking time for yourself.
+        </p>
+        <a href="#contact" class="light-link">CONNECT WITH ÉLORA <span>↗</span></a>
+      </div>
+    </section>
+
+    <!-- Ritual -->
+    <section class="ritual section-padding">
+      <div class="ritual-heading reveal">
+        <span class="eyebrow">A MOMENT FOR YOU</span>
+        <h2>Make every day<br><em>a little more beautiful.</em></h2>
+      </div>
+
+      <div class="ritual-details">
+        <div class="ritual-item reveal">
+          <span>01</span>
+          <div>
+            <h3>Slow Down</h3>
+            <p>Take a moment to pause and enjoy your daily skincare routine.</p>
+          </div>
+        </div>
+
+        <div class="ritual-item reveal">
+          <span>02</span>
+          <div>
+            <h3>Choose With Care</h3>
+            <p>Discover skincare essentials that fit your personal routine.</p>
+          </div>
+        </div>
+
+        <div class="ritual-item reveal">
+          <span>03</span>
+          <div>
+            <h3>Feel Your Best</h3>
+            <p>Celebrate the little moments of self-care every day.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="contact-content reveal">
+        <span class="eyebrow">LET'S CONNECT</span>
+        <h2>A little note<br><em>goes a long way.</em></h2>
+        <p>
+          Have a question or want to know more about ÉLORA?
+          We'd love to hear from you.
+        </p>
+
+        <a class="primary-button dark-button" href="mailto:hello@elorabeauty.com">
+          GET IN TOUCH <span>↗</span>
+        </a>
+      </div>
+
+      <div class="contact-decoration">
+        <span>É</span>
+        <p>BEAUTY IN EVERY DETAIL</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="footer-logo">ÉLORA<span>.</span></a>
+
+    <p>THE ART OF SKINCARE. THE BEAUTY OF YOU.</p>
+
+    <div class="footer-links">
+      <a href="#story">OUR STORY</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 ÉLORA. ALL RIGHTS RESERVED.</span>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+  <!-- Product Details Modal -->
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close details">×</button>
+
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="">
+      </div>
+
+      <div class="modal-content">
+        <span class="eyebrow" id="modalCategory"></span>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-description" id="modalDescription"></p>
+
+        <div class="detail-group">
+          <h4>ABOUT THE PRODUCT</h4>
+          <p id="modalAbout"></p>
+        </div>
+
+        <div class="detail-group">
+          <h4>KEY INGREDIENTS</h4>
+          <p id="modalIngredients"></p>
+        </div>
+
+        <div class="detail-group">
+          <h4>HOW TO USE</h4>
+          <p id="modalUsage"></p>
+        </div>
+
+        <span class="modal-note">
+          Product information shown here is for demonstration purposes.
+        </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
